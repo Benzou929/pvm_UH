@@ -22,9 +22,6 @@ void send_pb(int tid, pb_t *pb)
 	 tabY[i] = pb->y;
 	 i++;
 	}
-	
-	
-
 	pb_free(pb);
 }
 
